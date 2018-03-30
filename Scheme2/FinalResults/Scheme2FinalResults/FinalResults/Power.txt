@@ -1,0 +1,65 @@
+Loading db file '/cell_libs/cmos090_50a/CORE90GPSVT_SNPS-AVT_2.1/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPSVT_NomLeak.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ShiftReg32BitWithEnable
+Version: G-2012.06
+Date   : Fri Mar 30 10:16:15 2018
+****************************************
+
+
+Library(s) Used:
+
+    CORE90GPSVT (File: /cell_libs/cmos090_50a/CORE90GPSVT_SNPS-AVT_2.1/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPSVT_NomLeak.db)
+
+
+Operating Conditions: NomLeak   Library: CORE90GPSVT
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ShiftReg32BitWithEnable
+                       area_0to1K        CORE90GPSVT
+RegNBit_N8_0           area_0to1K        CORE90GPSVT
+Mux2InputNBit_N8_0     area_0to1K        CORE90GPSVT
+RegNBit_N8_1           area_0to1K        CORE90GPSVT
+RegNBit_N8_2           area_0to1K        CORE90GPSVT
+RegNBit_N8_3           area_0to1K        CORE90GPSVT
+Mux2InputNBit_N8_1     area_0to1K        CORE90GPSVT
+Mux2InputNBit_N8_2     area_0to1K        CORE90GPSVT
+Mux2InputNBit_N8_3     area_0to1K        CORE90GPSVT
+
+
+Global Operating Voltage = 1    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  37.6733 uW   (96%)
+  Net Switching Power  =   1.5951 uW    (4%)
+                         ---------
+Total Dynamic Power    =  39.2684 uW  (100%)
+
+Cell Leakage Power     = 753.7783 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       3.6701e-02        2.8084e-04        5.1114e+05        3.7493e-02  (  94.34%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  9.7185e-04        1.0334e-03        2.4264e+05        2.2479e-03  (   5.66%)
+--------------------------------------------------------------------------------------------------
+Total          3.7673e-02 mW     1.3143e-03 mW     7.5378e+05 pW     3.9741e-02 mW

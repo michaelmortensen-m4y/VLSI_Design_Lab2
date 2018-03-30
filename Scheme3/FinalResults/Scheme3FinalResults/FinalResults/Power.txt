@@ -1,0 +1,68 @@
+Loading db file '/cell_libs/cmos090_50a/CORE90GPSVT_SNPS-AVT_2.1/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPSVT_NomLeak.db'
+Loading db file '/cell_libs/cmos090_50a/CORE90GPHVT_SNPS-AVT_2.1.a/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPHVT_NomLeak.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ShiftReg32BitClockGated
+Version: G-2012.06
+Date   : Fri Mar 30 11:45:01 2018
+****************************************
+
+
+Library(s) Used:
+
+    CORE90GPSVT (File: /cell_libs/cmos090_50a/CORE90GPSVT_SNPS-AVT_2.1/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPSVT_NomLeak.db)
+    CORE90GPHVT (File: /cell_libs/cmos090_50a/CORE90GPHVT_SNPS-AVT_2.1.a/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPHVT_NomLeak.db)
+
+
+Operating Conditions: NomLeak   Library: CORE90GPSVT
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ShiftReg32BitClockGated
+                       area_0to1K        CORE90GPSVT
+ClockGen               area_0to1K        CORE90GPSVT
+RegNBit_N8_0           area_0to1K        CORE90GPSVT
+DFF_0                  area_0to1K        CORE90GPSVT
+RegNBit_N8_1           area_0to1K        CORE90GPSVT
+RegNBit_N8_2           area_0to1K        CORE90GPSVT
+RegNBit_N8_3           area_0to1K        CORE90GPSVT
+DFF_1                  area_0to1K        CORE90GPSVT
+DFF_2                  area_0to1K        CORE90GPSVT
+DFF_3                  area_0to1K        CORE90GPSVT
+
+
+Global Operating Voltage = 1    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  12.4390 uW   (76%)
+  Net Switching Power  =   3.9717 uW   (24%)
+                         ---------
+Total Dynamic Power    =  16.4108 uW  (100%)
+
+Cell Leakage Power     = 592.9261 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  3.0928e-04        3.4049e-03        1.7306e+03        3.7159e-03  (  21.91%)
+register       1.2003e-02        4.4600e-04        5.9003e+05        1.3039e-02  (  76.87%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  1.2712e-04        7.9440e-05        1.1656e+03        2.0773e-04  (   1.22%)
+--------------------------------------------------------------------------------------------------
+Total          1.2439e-02 mW     3.9303e-03 mW     5.9293e+05 pW     1.6962e-02 mW

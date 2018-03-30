@@ -1,0 +1,285 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+Ccfg_shiftreg_enable_schematic
+eShiftReg32BitWithEnable
+aarch
+Z0 DEx4 work 13 mux2inputnbit 0 22 VRG7:Jzm;7<=a_YIaFO:>1
+Z1 DEx4 work 7 regnbit 0 22 6m6X2lH=B0EHLhU=7X::i0
+DAx4 work 23 shiftreg32bitwithenable 4 arch 22 ]SEE`gGeQGkF7ef9Ee<NI3
+Z2 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z3 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+Z4 DPx13 ieee_proposed 20 std_logic_components 0 22 hCPS9L_8G50J0kDe1[:?@2
+Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 DEx4 work 23 shiftreg32bitwithenable 0 22 ZTeWFkmA_NN34Ec`hh<1I1
+Z10 w1522350873
+Z11 dD:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/modelsim
+Z12 8D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/ShiftReg32BitWithEnable.vhd
+Z13 FD:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/ShiftReg32BitWithEnable.vhd
+l0
+L89
+VdML;CGC2nOfc^`=?Md5j]2
+!s100 oDKQM?VBz=63E^G6i<=Ma2
+Z14 OP;C;10.4a;61
+32
+Z15 !s110 1522352181
+!i10b 0
+Z16 !s108 1522352181.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/ShiftReg32BitWithEnable.vhd|
+Z18 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/ShiftReg32BitWithEnable.vhd|
+!i113 1
+Z19 o-work work -2002 -explicit -O0
+Z20 tExplicit 1
+Ccfg_tb_shiftreg_behavioral
+eE
+aA
+R9
+R2
+R3
+R4
+R6
+DCx4 work 29 cfg_shiftreg_enable_schematic 0 22 dML;CGC2nOfc^`=?Md5j]2
+DAx4 work 1 e 1 a 22 9YBgjBD0M0VZW207]H>2C0
+R5
+Z21 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z22 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R7
+R8
+Z23 DEx4 work 1 e 0 22 [6V`oF?m9ziNfLmG8BeQR3
+Z24 w1522350642
+R11
+Z25 8D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/tb_shiftreg_enable.vhd
+Z26 FD:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/tb_shiftreg_enable.vhd
+l0
+L161
+Vc3WdII@CM@bWUWoL^HBKi1
+!s100 ?DTgV[k;Z7908LFYn>^4<2
+R14
+32
+Z27 !s110 1522352182
+!i10b 0
+Z28 !s108 1522352182.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/tb_shiftreg_enable.vhd|
+Z30 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/tb_shiftreg_enable.vhd|
+!i113 1
+R19
+R20
+Ee
+R24
+R5
+R21
+R22
+R7
+R8
+R11
+R25
+R26
+l0
+L14
+V[6V`oF?m9ziNfLmG8BeQR3
+!s100 R7Ma[fQ_]2Vm<9G:CADNX3
+R14
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R19
+R20
+Aa
+R5
+R21
+R22
+R7
+R8
+R23
+l39
+L17
+Z31 V9YBgjBD0M0VZW207]H>2C0
+Z32 !s100 h82JfBBelWBYgkT@Cf4P?2
+R14
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R19
+R20
+Emux2inputnbit
+Z33 w1522350895
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R11
+Z34 8D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/Mux2InputNBit.vhd
+Z35 FD:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/Mux2InputNBit.vhd
+l0
+L14
+VVRG7:Jzm;7<=a_YIaFO:>1
+!s100 bh56gEmG6EeRXa?4m`61`3
+R14
+32
+R27
+!i10b 1
+R28
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/Mux2InputNBit.vhd|
+Z37 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/Mux2InputNBit.vhd|
+!i113 1
+R19
+R20
+Aarch
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R0
+l26
+L24
+VUNDbImC3Ol[AzH^`@]47[3
+!s100 G2e@bJK<;_^3?12:BDXk83
+R14
+32
+R27
+!i10b 1
+R28
+R36
+R37
+!i113 1
+R19
+R20
+Eregnbit
+Z38 w1522350865
+R5
+R6
+R7
+R8
+R11
+Z39 8D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/RegNBit.vhd
+Z40 FD:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/RegNBit.vhd
+l0
+L12
+V6m6X2lH=B0EHLhU=7X::i0
+!s100 g@JCQbgCVTD<gEFVBCIAX3
+R14
+32
+R27
+!i10b 1
+R16
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/RegNBit.vhd|
+Z42 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/RegNBit.vhd|
+!i113 1
+R19
+R20
+Aarch
+R5
+R6
+R7
+R8
+R1
+l25
+L21
+VaNYhi_mE`DL`o]c@W>fLm3
+!s100 B1bNJhbaQ?_CK?d24eF9Y1
+R14
+32
+R27
+!i10b 1
+R16
+R41
+R42
+!i113 1
+R19
+R20
+Eshiftreg32bitwithenable
+R10
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R11
+R12
+R13
+l0
+L14
+VZTeWFkmA_NN34Ec`hh<1I1
+!s100 O0mFPjim^51=Ei349n^e^2
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R19
+R20
+Aarch
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+l57
+L26
+V]SEE`gGeQGkF7ef9Ee<NI3
+!s100 6:c35`YH52FIFU]jSWzfT2
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R19
+R20
+Eshiftregwithenable
+w1522243089
+R5
+R6
+R7
+R8
+R11
+R12
+R13
+l0
+L12
+VJJOjOm]ZR`J^B:G6D?9ib2
+!s100 T9id0Q1dRh6Y[2h93Moof0
+R14
+32
+!s110 1522263774
+!i10b 1
+!s108 1522263774.000000
+R17
+R18
+!i113 1
+R19
+R20

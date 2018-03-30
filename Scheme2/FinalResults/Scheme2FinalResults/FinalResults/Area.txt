@@ -1,0 +1,27 @@
+ 
+****************************************
+Report : area
+Design : ShiftReg32BitWithEnable
+Version: G-2012.06
+Date   : Fri Mar 30 10:14:41 2018
+****************************************
+
+Library(s) Used:
+
+    CORE90GPSVT (File: /cell_libs/cmos090_50a/CORE90GPSVT_SNPS-AVT_2.1/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPSVT_NomLeak.db)
+
+Number of ports:                           46
+Number of nets:                            77
+Number of cells:                            8
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       8
+
+Combinational area:        254.643196
+Noncombinational area:     456.601593
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:           711.244789
+Total area:                 undefined

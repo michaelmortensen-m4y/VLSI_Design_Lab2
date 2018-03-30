@@ -1,0 +1,45 @@
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : ShiftReg32Bit
+Version: G-2012.06
+Date   : Fri Mar 30 14:45:37 2018
+****************************************
+
+
+Library(s) Used:
+
+    CORE90GPHVT (File: /cell_libs/cmos090_50a/CORE90GPHVT_SNPS-AVT_2.1.a/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPHVT_NomLeak.db)
+
+
+Operating Conditions: NomLeak   Library: CORE90GPSVT
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ShiftReg32Bit          area_0to1K        CORE90GPSVT
+RegNBit_N8_0           area_0to1K        CORE90GPSVT
+RegNBit_N8_1           area_0to1K        CORE90GPSVT
+RegNBit_N8_2           area_0to1K        CORE90GPSVT
+RegNBit_N8_3           area_0to1K        CORE90GPSVT
+
+
+Global Operating Voltage = 1    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+ShiftReg32Bit                          3.86e-03 5.32e-02 6.09e+04 5.71e-02 100.0
+  reg3 (RegNBit_N8_1)                       N/A 1.33e-02 1.52e+04 1.27e-02  22.2
+  reg2 (RegNBit_N8_2)                  5.82e-04 1.33e-02 1.52e+04 1.39e-02  24.3
+  reg1 (RegNBit_N8_3)                  5.82e-04 1.33e-02 1.52e+04 1.39e-02  24.3
+  reg0 (RegNBit_N8_0)                  1.75e-03 1.33e-02 1.52e+04 1.51e-02  26.4

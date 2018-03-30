@@ -1,0 +1,69 @@
+D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/DFF.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/DFF.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DFF
+-- Compiling architecture arch of DFF
+
+} {} {}} D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ShiftReg32BitClockGated.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ShiftReg32BitClockGated.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package STD_LOGIC_COMPONENTS
+-- Compiling entity ShiftReg32BitClockGated
+-- Compiling architecture arch of ShiftReg32BitClockGated
+-- Compiling configuration CFG_SHIFTREG_GATED_SCHEMATIC
+-- Loading entity ShiftReg32BitClockGated
+-- Loading architecture arch of ShiftReg32BitClockGated
+-- Loading entity ClockGen
+-- Loading entity RegNBit
+
+} {} {}} D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ClockGen.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ClockGen.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ClockGen
+-- Compiling architecture arch of ClockGen
+
+} {} {}} D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/RegNBit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/RegNBit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity RegNBit
+-- Compiling architecture arch of RegNBit
+
+} {} {}} D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_shiftreg_gated2.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_shiftreg_gated2.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity E
+-- Compiling architecture A of E
+-- Compiling configuration CFG_tb_shiftreg_BEHAVIORAL
+-- Loading entity E
+-- Loading architecture A of E
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package STD_LOGIC_COMPONENTS
+-- Loading entity ShiftReg32BitClockGated
+-- Loading configuration cfg_shiftreg_gated_schematic
+
+} {} {}}

@@ -1,0 +1,29 @@
+****************************************
+Report : area
+Design : ShiftReg32BitClockGated
+Version: G-2012.06
+Date   : Fri Mar 30 13:58:51 2018
+****************************************
+ 
+Library(s) Used:
+
+    CORE90GPSVT (File: /cell_libs/cmos090_50a/CORE90GPSVT_SNPS-AVT_2.1/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPSVT_NomLeak.db)
+    CORE90GPHVT (File: /cell_libs/cmos090_50a/CORE90GPHVT_SNPS-AVT_2.1.a/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPHVT_NomLeak.db)
+ 
+Number of ports:                           42
+Number of nets:                            46
+Number of cells:                            5
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       5
+ 
+Combinational area:         29.635200
+Noncombinational area:     549.897596
+Net Interconnect area:      undefined  (Wire load has zero net area)
+ 
+Total cell area:           579.532796
+Total area:                 undefined
+
+***** End Of Report *****

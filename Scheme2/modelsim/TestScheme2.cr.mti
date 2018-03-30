@@ -1,0 +1,62 @@
+D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/Mux2InputNBit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/Mux2InputNBit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package STD_LOGIC_COMPONENTS
+-- Compiling entity Mux2InputNBit
+-- Compiling architecture arch of Mux2InputNBit
+
+} {} {}} D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/ShiftReg32BitWithEnable.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/ShiftReg32BitWithEnable.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package STD_LOGIC_COMPONENTS
+-- Compiling entity ShiftReg32BitWithEnable
+-- Compiling architecture arch of ShiftReg32BitWithEnable
+-- Compiling configuration cfg_shiftreg_enable_schematic
+-- Loading entity ShiftReg32BitWithEnable
+-- Loading architecture arch of ShiftReg32BitWithEnable
+-- Loading entity RegNBit
+-- Loading entity Mux2InputNBit
+
+} {} {}} D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/RegNBit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/RegNBit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity RegNBit
+-- Compiling architecture arch of RegNBit
+
+} {} {}} D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/tb_shiftreg_enable.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/Eclipse/VHDL/VLSILab2/Scheme2/tb_shiftreg_enable.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity E
+-- Compiling architecture A of E
+-- Compiling configuration CFG_tb_shiftreg_BEHAVIORAL
+-- Loading entity E
+-- Loading architecture A of E
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package STD_LOGIC_COMPONENTS
+-- Loading entity ShiftReg32BitWithEnable
+-- Loading configuration cfg_shiftreg_enable_schematic
+
+} {} {}}

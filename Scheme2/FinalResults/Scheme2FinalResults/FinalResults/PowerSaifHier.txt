@@ -1,0 +1,54 @@
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : ShiftReg32BitWithEnable
+Version: G-2012.06
+Date   : Fri Mar 30 10:50:42 2018
+****************************************
+
+
+Library(s) Used:
+
+    CORE90GPSVT (File: /cell_libs/cmos090_50a/CORE90GPSVT_SNPS-AVT_2.1/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPSVT_NomLeak.db)
+
+
+Operating Conditions: NomLeak   Library: CORE90GPSVT
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ShiftReg32BitWithEnable
+                       area_0to1K        CORE90GPSVT
+RegNBit_N8_0           area_0to1K        CORE90GPSVT
+Mux2InputNBit_N8_0     area_0to1K        CORE90GPSVT
+RegNBit_N8_1           area_0to1K        CORE90GPSVT
+RegNBit_N8_2           area_0to1K        CORE90GPSVT
+RegNBit_N8_3           area_0to1K        CORE90GPSVT
+Mux2InputNBit_N8_1     area_0to1K        CORE90GPSVT
+Mux2InputNBit_N8_2     area_0to1K        CORE90GPSVT
+Mux2InputNBit_N8_3     area_0to1K        CORE90GPSVT
+
+
+Global Operating Voltage = 1    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+ShiftReg32BitWithEnable                6.58e-03 4.75e-02 7.42e+05 5.48e-02 100.0
+  mux3 (Mux2InputNBit_N8_1)            1.08e-03 1.43e-03 5.78e+04 2.57e-03   4.7
+  mux2 (Mux2InputNBit_N8_2)            1.08e-03 1.43e-03 5.78e+04 2.57e-03   4.7
+  mux1 (Mux2InputNBit_N8_3)            1.07e-03 1.42e-03 5.79e+04 2.55e-03   4.7
+  mux0 (Mux2InputNBit_N8_0)            1.08e-03 1.44e-03 5.78e+04 2.58e-03   4.7
+  reg3 (RegNBit_N8_1)                  4.28e-04 1.04e-02 1.28e+05 1.10e-02  20.1
+  reg2 (RegNBit_N8_2)                  4.27e-04 1.04e-02 1.28e+05 1.10e-02  20.1
+  reg1 (RegNBit_N8_3)                  4.24e-04 1.04e-02 1.28e+05 1.10e-02  20.0
+  reg0 (RegNBit_N8_0)                  4.23e-04 1.04e-02 1.28e+05 1.10e-02  20.0

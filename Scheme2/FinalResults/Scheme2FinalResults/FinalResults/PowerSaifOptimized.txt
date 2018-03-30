@@ -1,0 +1,60 @@
+****************************************
+Report : power
+        -analysis_effort low
+Design : ShiftReg32BitWithEnable
+Version: G-2012.06
+Date   : Fri Mar 30 10:55:52 2018
+****************************************
+
+
+Library(s) Used:
+
+    CORE90GPHVT (File: /cell_libs/cmos090_50a/CORE90GPHVT_SNPS-AVT_2.1.a/SIGNOFF/bc_1.10V_m40C_wc_0.90V_105C/PT_LIB/CORE90GPHVT_NomLeak.db)
+
+
+Operating Conditions: NomLeak   Library: CORE90GPSVT
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ShiftReg32BitWithEnable
+                       area_0to1K        CORE90GPSVT
+RegNBit_N8_0           area_0to1K        CORE90GPSVT
+Mux2InputNBit_N8_0     area_0to1K        CORE90GPSVT
+RegNBit_N8_1           area_0to1K        CORE90GPSVT
+RegNBit_N8_2           area_0to1K        CORE90GPSVT
+RegNBit_N8_3           area_0to1K        CORE90GPSVT
+Mux2InputNBit_N8_1     area_0to1K        CORE90GPSVT
+Mux2InputNBit_N8_2     area_0to1K        CORE90GPSVT
+Mux2InputNBit_N8_3     area_0to1K        CORE90GPSVT
+
+
+Global Operating Voltage = 1    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  46.7168 uW   (88%)
+  Net Switching Power  =   6.4429 uW   (12%)
+                         ---------
+Total Dynamic Power    =  53.1597 uW  (100%)
+
+Cell Leakage Power     =  87.6471 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       4.1533e-02        5.5924e-04        6.0924e+04        4.2153e-02  (  80.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  5.1843e-03        5.3245e-03        2.6723e+04        1.0535e-02  (  20.00%)
+--------------------------------------------------------------------------------------------------
+Total          4.6717e-02 mW     5.8837e-03 mW     8.7647e+04 pW     5.2688e-02 mW

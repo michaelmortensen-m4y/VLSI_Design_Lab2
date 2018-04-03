@@ -31,12 +31,19 @@ ARCHITECTURE arch OF ClockGen IS
         );
     END COMPONENT;
 
-    SIGNAL Q3 : std_logic := '0';
-    SIGNAL Q2 : std_logic := '0';
-    SIGNAL Q1 : std_logic := '0';
-    SIGNAL Q0 : std_logic := '0';
-    SIGNAL Din : std_logic := '0';
-    SIGNAL NewD : std_logic := '1';
+--    SIGNAL Q3 : std_logic := '0'; -- Initial values not supported by design vision
+--    SIGNAL Q2 : std_logic := '0';
+--    SIGNAL Q1 : std_logic := '0';
+--    SIGNAL Q0 : std_logic := '0';
+--    SIGNAL Din : std_logic := '0';
+--    SIGNAL NewD : std_logic := '1';
+    
+    SIGNAL Q3 : std_logic;
+    SIGNAL Q2 : std_logic;
+    SIGNAL Q1 : std_logic;
+    SIGNAL Q0 : std_logic;
+    SIGNAL Din : std_logic;
+    SIGNAL NewD : std_logic;
 
 BEGIN
 
@@ -59,9 +66,15 @@ BEGIN
 --            Q2 <= Q3;
 --            Q3 <= Din;
 --        END IF;
+--        IF (clock'event AND clock = '0' and resetCG = '1') THEN
+--            NewD <= '0';
+--        elsif (resetCG = '0') then  -- (Not supported by design vision?)
+--            NewD <= '1';
+--        END IF;
         IF (clock'event AND clock = '0' and resetCG = '1') THEN
             NewD <= '0';
-        elsif (resetCG = '0') then
+        END IF;
+        IF (resetCG = '0') then
             NewD <= '1';
         END IF;
     END PROCESS;

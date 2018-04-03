@@ -20,19 +20,19 @@ architecture A of E is
    signal    RESET : std_logic;
    signal    ENABLE : std_logic;
    signal       QK : std_logic_vector (7 downto 0);
-   signal        Q : std_logic_vector (31 downto 0);
+   signal        Qout : std_logic_vector (31 downto 0);
 
-   component SHIFTREG
+   component ShiftReg32Bit
       Port (   CLOCK : In    std_logic;
                RESET : In    std_logic;
               ENABLE : In    std_logic;
                   QK : In    std_logic_vector (7 downto 0);
-                   Q : InOut   std_logic_vector (31 downto 0) );
+                   Qout : InOut   std_logic_vector (31 downto 0) );
    end component;
 
 begin
-   UUT : SHIFTREG
-      Port Map ( CLOCK, RESET, ENABLE, QK, Q );
+   UUT : ShiftReg32Bit
+      Port Map ( CLOCK, RESET, ENABLE, QK, Qout );
 
    TB : block
    begin
@@ -81,7 +81,7 @@ begin
     clock <= '1'; wait for 5 ns;
     clock <= '0'; wait for 5 ns;
     
-    Z(31 downto 0)  := Q(31 downto 0);
+    Z(31 downto 0)  := Qout(31 downto 0);
 
     write(line_out, string'("byte "));
     write(line_out,c-1);
@@ -105,7 +105,7 @@ begin
 
 -- ===============================================================
   clock <= '1'; wait for 1000 ns;
-  assert q = "11111111111111111111111111111111"
+  assert Qout = "11111111111111111111111111111111"
     report "--------- END SIMULATION  ------------------ " severity error;
 -- ===============================================================
 
@@ -116,7 +116,7 @@ end A;
 
 configuration CFG_tb_shiftreg_BEHAVIORAL of E is
    for A
-      for UUT : SHIFTREG
+      for UUT : ShiftReg32Bit
          -- use configuration WORK.CFG_q_regs_enable_SCHEMATIC;
          use configuration WORK.CFG_SHIFTREG_BEHAVIORAL;
       end for;

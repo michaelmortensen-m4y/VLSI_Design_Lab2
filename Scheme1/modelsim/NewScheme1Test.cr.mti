@@ -1,0 +1,42 @@
+D:/Documents/Eclipse/VHDL/VLSILab2/NewScheme1/ShiftReg32Bit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/Eclipse/VHDL/VLSILab2/NewScheme1/ShiftReg32Bit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ShiftReg32Bit
+-- Compiling architecture arch of ShiftReg32Bit
+-- Compiling configuration CFG_SHIFTREG_BEHAVIORAL
+-- Loading entity ShiftReg32Bit
+-- Loading architecture arch of ShiftReg32Bit
+-- Loading entity RegNBit
+
+} {} {}} D:/Documents/Eclipse/VHDL/VLSILab2/NewScheme1/tb_shiftreg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/Eclipse/VHDL/VLSILab2/NewScheme1/tb_shiftreg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity E
+-- Compiling architecture A of E
+-- Compiling configuration CFG_tb_shiftreg_BEHAVIORAL
+-- Loading entity E
+-- Loading architecture A of E
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ShiftReg32Bit
+-- Loading configuration cfg_shiftreg_behavioral
+
+} {} {}} D:/Documents/Eclipse/VHDL/VLSILab2/NewScheme1/RegNBit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/Eclipse/VHDL/VLSILab2/NewScheme1/RegNBit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity RegNBit
+-- Compiling architecture arch of RegNBit
+
+} {} {}}

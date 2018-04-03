@@ -32,9 +32,9 @@ VGF3ONcIQ8z6QG6EH8LP0;2
 !s100 LTdlaPA[dLOKU71ReY]182
 Z14 OP;C;10.4a;61
 32
-Z15 !s110 1522352297
+Z15 !s110 1522410885
 !i10b 0
-Z16 !s108 1522352297.000000
+Z16 !s108 1522410885.000000
 Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ShiftReg32BitClockGated.vhd|
 Z18 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ShiftReg32BitClockGated.vhd|
 !i113 1
@@ -66,34 +66,34 @@ V=@[Z^H_lL_MO>cELT]ITG2
 !s100 MzzCNQAa52zKTUR_4k98a1
 R14
 32
-Z27 !s110 1522352298
+R15
 !i10b 0
-Z28 !s108 1522352298.000000
-Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_shiftreg_gated2.vhd|
-Z30 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_shiftreg_gated2.vhd|
+R16
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_shiftreg_gated2.vhd|
+Z28 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_shiftreg_gated2.vhd|
 !i113 1
 R19
 R20
 Eclockgate
-Z31 w1522344990
+Z29 w1522344990
 R5
 R6
 R7
 R8
 R11
-Z32 8D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ClockGen.vhd
-Z33 FD:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ClockGen.vhd
+Z30 8D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ClockGen.vhd
+Z31 FD:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ClockGen.vhd
 l0
 L12
 Vf7hDQX8HMFo1S0L47ScFd2
 !s100 54zGJkn1lU@a7[dJOJAQM0
 R14
 32
-Z34 !s110 1522347116
+Z32 !s110 1522347116
 !i10b 1
-Z35 !s108 1522347116.000000
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ClockGen.vhd|
-Z37 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ClockGen.vhd|
+Z33 !s108 1522347116.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ClockGen.vhd|
+Z35 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/ClockGen.vhd|
 !i113 1
 R19
 R20
@@ -109,34 +109,34 @@ VKEFAXjH9Jz85IUiE0GGhA2
 !s100 R2X261MGV4_RBTmV08@4C0
 R14
 32
-R34
+R32
 !i10b 1
+R33
+R34
 R35
-R36
-R37
 !i113 1
 R19
 R20
 Eclockgen
-Z38 w1522347477
+Z36 w1522410844
 R5
 R6
 R7
 R8
 R11
-R32
-R33
+R30
+R31
 l0
 L12
 V5O8NZ]NWlUIJRPocf_zJj0
 !s100 Kg8o:C_S7jUKhglD4=RH21
 R14
 32
-R27
+R15
 !i10b 1
-R28
-R36
-R37
+R16
+R34
+R35
 !i113 1
 R19
 R20
@@ -146,40 +146,40 @@ R6
 R7
 R8
 R1
-l41
+l48
 L23
-VX51AX=:c=]jz3IiEM_Jd;0
-!s100 =0in`AoQ:GzGZ64zD`63z3
+V01nh?`kFe8JjJYIQkAJJh0
+!s100 mc5IJDUm4A81RgK9A0d<^2
 R14
 32
-R27
+R15
 !i10b 1
-R28
-R36
-R37
+R16
+R34
+R35
 !i113 1
 R19
 R20
 Edff
-R31
+R29
 R5
 R6
 R7
 R8
 R11
-Z39 8D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/DFF.vhd
-Z40 FD:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/DFF.vhd
+Z37 8D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/DFF.vhd
+Z38 FD:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/DFF.vhd
 l0
 L12
 V6TCkXjT]cl;?heGZhR;kh2
 !s100 VkM43CS5INJ[YMzF@H?_]2
 R14
 32
-R27
+Z39 !s110 1522410886
 !i10b 1
-R28
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/DFF.vhd|
-Z42 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/DFF.vhd|
+R16
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/DFF.vhd|
+Z41 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/DFF.vhd|
 !i113 1
 R19
 R20
@@ -188,18 +188,18 @@ R5
 R6
 R7
 R8
-Z43 DEx4 work 3 dff 0 22 6TCkXjT]cl;?heGZhR;kh2
+Z42 DEx4 work 3 dff 0 22 6TCkXjT]cl;?heGZhR;kh2
 l23
 L21
-Z44 VBRl]RKa=X@:<3oH:XLga21
-Z45 !s100 PkXUcnCfP_<4DUieW_<fE0
+Z43 VBRl]RKa=X@:<3oH:XLga21
+Z44 !s100 PkXUcnCfP_<4DUieW_<fE0
 R14
 32
-R27
+R39
 !i10b 1
-R28
+R16
+R40
 R41
-R42
 !i113 1
 R19
 R20
@@ -219,11 +219,11 @@ V[6V`oF?m9ziNfLmG8BeQR3
 !s100 R7Ma[fQ_]2Vm<9G:CADNX3
 R14
 32
-R27
+R15
 !i10b 1
+R16
+R27
 R28
-R29
-R30
 !i113 1
 R19
 R20
@@ -240,34 +240,34 @@ V_BFU5b_3Gl0MNC@<JCokW3
 !s100 fYcG=7PYzca?^7?2R@<e`0
 R14
 32
-R27
+R15
 !i10b 1
+R16
+R27
 R28
-R29
-R30
 !i113 1
 R19
 R20
 Eregnbit
-Z46 w1522240942
+Z45 w1522240942
 R5
 R6
 R7
 R8
 R11
-Z47 8D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/RegNBit.vhd
-Z48 FD:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/RegNBit.vhd
+Z46 8D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/RegNBit.vhd
+Z47 FD:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/RegNBit.vhd
 l0
 L12
 V6m6X2lH=B0EHLhU=7X::i0
 !s100 g@JCQbgCVTD<gEFVBCIAX3
 R14
 32
-R27
+R15
 !i10b 1
-R28
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/RegNBit.vhd|
-Z50 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/RegNBit.vhd|
+R16
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/RegNBit.vhd|
+Z49 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/RegNBit.vhd|
 !i113 1
 R19
 R20
@@ -283,34 +283,34 @@ VaNYhi_mE`DL`o]c@W>fLm3
 !s100 B1bNJhbaQ?_CK?d24eF9Y1
 R14
 32
-R27
+R15
 !i10b 1
-R28
+R16
+R48
 R49
-R50
 !i113 1
 R19
 R20
 Eregnbitclockgated
-Z51 w1522272632
+Z50 w1522272632
 R5
 R6
 R7
 R8
 R11
-Z52 8D:\Documents\Eclipse\VHDL\VLSILab2\Scheme3\RegNBitClockGated.vhd
-Z53 FD:\Documents\Eclipse\VHDL\VLSILab2\Scheme3\RegNBitClockGated.vhd
+Z51 8D:\Documents\Eclipse\VHDL\VLSILab2\Scheme3\RegNBitClockGated.vhd
+Z52 FD:\Documents\Eclipse\VHDL\VLSILab2\Scheme3\RegNBitClockGated.vhd
 l0
 L12
 V^W6X?nG1WAmX[3:C>V1fW1
 !s100 85Ta`EXzdADiJXo]fKf1P0
 R14
 32
-Z54 !s110 1522272638
+Z53 !s110 1522272638
 !i10b 1
-Z55 !s108 1522272638.000000
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Documents\Eclipse\VHDL\VLSILab2\Scheme3\RegNBitClockGated.vhd|
-Z57 !s107 D:\Documents\Eclipse\VHDL\VLSILab2\Scheme3\RegNBitClockGated.vhd|
+Z54 !s108 1522272638.000000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Documents\Eclipse\VHDL\VLSILab2\Scheme3\RegNBitClockGated.vhd|
+Z56 !s107 D:\Documents\Eclipse\VHDL\VLSILab2\Scheme3\RegNBitClockGated.vhd|
 !i113 1
 R19
 R20
@@ -326,11 +326,11 @@ VN^cLIN28OPkF^lJX0S50D1
 !s100 JF9UbIOPmj>4OIPYIEo@03
 R14
 32
-R54
+R53
 !i10b 1
+R54
 R55
 R56
-R57
 !i113 1
 R19
 R20
@@ -384,31 +384,31 @@ R18
 R19
 R20
 Etb_clockgate
-Z58 w1522347091
-Z59 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z57 w1522347091
+Z58 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R5
 R6
 R7
 R8
 R11
-Z60 8D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_ClockGate.vhd
-Z61 FD:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_ClockGate.vhd
+Z59 8D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_ClockGate.vhd
+Z60 FD:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_ClockGate.vhd
 l0
 L13
 VWbPm3O@HCNGT2^U`iEXS63
 !s100 _X87_B9dO8;]c6ojU@<S:2
 R14
 32
-Z62 !s110 1522347698
+Z61 !s110 1522347698
 !i10b 1
-Z63 !s108 1522347698.000000
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_ClockGate.vhd|
-Z65 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_ClockGate.vhd|
+Z62 !s108 1522347698.000000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_ClockGate.vhd|
+Z64 !s107 D:/Documents/Eclipse/VHDL/VLSILab2/Scheme3/tb_ClockGate.vhd|
 !i113 1
 R19
 R20
 Abehavior
-R59
+R58
 R5
 R6
 R7
@@ -420,11 +420,11 @@ VI91]V5aid>I3i30XGdB=j1
 !s100 SoeiJZ35@=L7g7L1b1[AD2
 R14
 32
-R62
+R61
 !i10b 1
+R62
 R63
 R64
-R65
 !i113 1
 R19
 R20
